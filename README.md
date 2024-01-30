@@ -5,7 +5,6 @@
 - 기간: 2023년 2월
 - 참고 사이트: [SWEA](https://swexpertacademy.com/main/main.do), [백준](https://www.acmicpc.net/)
 - 언어: Java
-***
 
 ## 스터디 규칙 
 
@@ -26,7 +25,6 @@
 4. 매주 월요일 8시 정기모임 진행
     1. 한 주 회고 및 스터디 운영 방향 피드백
 
-***
 ## PR 규칙 및 Commit Message 규칙
 
 #### Pull Request
@@ -41,7 +39,6 @@
 
 - [baekjoon-문제번호] 문제명
 
-***
 ## 일정표
 
 #### 1차 : 알고리즘 유형별 문제 풀이
