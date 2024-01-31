@@ -42,38 +42,38 @@
 
 #### 1차 : 알고리즘 유형별 문제 풀이
 
-| **날짜** | **유형**          | **문제 링크**                                  | 
-| -------- | ----------------  | ---------------------------------------------- |
-|  240201  |      완전탐색      | [퇴사](https://www.acmicpc.net/problem/14501) | 
-|  240202  |      완전탐색      | [컴백 홈](https://www.acmicpc.net/problem/1189) | 
-|  240203  |       그리디       | [주식](https://www.acmicpc.net/problem/11501) |
-|  240204  |       그리디       | [행렬](https://www.acmicpc.net/problem/1080) |
-|  240205  |     분할 정복      | [쿼드 트리](https://www.acmicpc.net/problem/1992) |
-|  240206  |     분할 정복      | [하노이 탑](https://www.acmicpc.net/problem/1914) |
-|  240208  |     백 트래킹      | [N과 M(1)](https://www.acmicpc.net/problem/15649) |
-|  240209  |     백 트래킹      | [연산자 끼워넣기](https://www.acmicpc.net/problem/14888) |
-|  240211  |     dfs & bfs     | [dfs와 bfs](https://www.acmicpc.net/problem/1260) |
-|  240212  |     dfs & bfs     | [경로 찾기](https://www.acmicpc.net/problem/11403) |
-|  240213  |     dfs & bfs     | [안전 영역](https://www.acmicpc.net/problem/2468) |
-|  240214  |     dfs & bfs     | [숨바꼭질](https://www.acmicpc.net/problem/1697) |
-|  240215  |     DP      | [계단 오르기](https://www.acmicpc.net/problem/2579) |
-|  240216  |     DP      | [연속 합](https://www.acmicpc.net/problem/1912) |
+| **날짜** | **유형**          | **문제 링크**                                  | **진행 상황** |
+| -------- | ----------------  | ---------------------------------------------- | ------------- |
+|  240201  |      완전탐색      | [퇴사](https://www.acmicpc.net/problem/14501) |               |
+|  240202  |      완전탐색      | [컴백 홈](https://www.acmicpc.net/problem/1189) |               |
+|  240203  |       그리디       | [주식](https://www.acmicpc.net/problem/11501) |               |
+|  240204  |       그리디       | [행렬](https://www.acmicpc.net/problem/1080) |               |
+|  240205  |     분할 정복      | [쿼드 트리](https://www.acmicpc.net/problem/1992) |               |
+|  240206  |     분할 정복      | [하노이 탑](https://www.acmicpc.net/problem/1914) |               |
+|  240208  |     백 트래킹      | [N과 M(1)](https://www.acmicpc.net/problem/15649) |               |
+|  240209  |     백 트래킹      | [연산자 끼워넣기](https://www.acmicpc.net/problem/14888) |               |
+|  240211  |     dfs & bfs     | [dfs와 bfs](https://www.acmicpc.net/problem/1260) |               |
+|  240212  |     dfs & bfs     | [경로 찾기](https://www.acmicpc.net/problem/11403) |               |
+|  240213  |     dfs & bfs     | [안전 영역](https://www.acmicpc.net/problem/2468) |               |
+|  240214  |     dfs & bfs     | [숨바꼭질](https://www.acmicpc.net/problem/1697) |               |
+|  240215  |     DP      | [계단 오르기](https://www.acmicpc.net/problem/2579) |               |
+|  240216  |     DP      | [연속 합](https://www.acmicpc.net/problem/1912) |               |
 
 
 #### 2차 : 백준 삼성SW 역량테스트 기출문제
 
-| **날짜** |  **문제 링크**                                  | 
-| -------- | ---------------------------------------------- |
-|  240217  | [구슬 탈출2](https://www.acmicpc.net/problem/13460) | 
-|  240218  | [2048 (Easy)](https://www.acmicpc.net/problem/12100) | 
-|  240219  | [뱀](https://www.acmicpc.net/problem/3190) | 
-|  240220  | [시험 감독](https://www.acmicpc.net/problem/13458) | 
-|  240221  | [주사위 굴리기](https://www.acmicpc.net/problem/14499) | 
-|  240222  | [테트로 미노](https://www.acmicpc.net/problem/14500) | 
-|  240223  | [사다리 조작](https://www.acmicpc.net/problem/15684) | 
-|  240224  | [연구소](https://www.acmicpc.net/problem/14502) | 
-|  240225  | [로봇 청소기](https://www.acmicpc.net/problem/14503) | 
-|  240226  | [스타트와 링크](https://www.acmicpc.net/problem/14889) | 
-|  240227  | [경사로](https://www.acmicpc.net/problem/14890) | 
-|  240228  | [톱니바퀴](https://www.acmicpc.net/problem/14891) | 
-|  240229  | [감시](https://www.acmicpc.net/problem/15683) | 
+| **날짜** |  **문제 링크**                                  | **진행 상황** | 
+| -------- | ---------------------------------------------- | ------------- |
+|  240217  | [구슬 탈출2](https://www.acmicpc.net/problem/13460) |               |
+|  240218  | [2048 (Easy)](https://www.acmicpc.net/problem/12100) |                |
+|  240219  | [뱀](https://www.acmicpc.net/problem/3190) |                |
+|  240220  | [시험 감독](https://www.acmicpc.net/problem/13458) |                |
+|  240221  | [주사위 굴리기](https://www.acmicpc.net/problem/14499) |                |
+|  240222  | [테트로 미노](https://www.acmicpc.net/problem/14500) |                |
+|  240223  | [사다리 조작](https://www.acmicpc.net/problem/15684) |                |
+|  240224  | [연구소](https://www.acmicpc.net/problem/14502) |                |
+|  240225  | [로봇 청소기](https://www.acmicpc.net/problem/14503) |                |
+|  240226  | [스타트와 링크](https://www.acmicpc.net/problem/14889) |                |
+|  240227  | [경사로](https://www.acmicpc.net/problem/14890) |                |
+|  240228  | [톱니바퀴](https://www.acmicpc.net/problem/14891) |                |
+|  240229  | [감시](https://www.acmicpc.net/problem/15683) |                |
