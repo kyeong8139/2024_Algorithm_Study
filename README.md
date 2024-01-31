@@ -1,8 +1,8 @@
-# 2023-Algorithm-Study
+# 2024-Algorithm-Study
 
 > SW 역량테스트 A형 취득을 위한 스터디입니다. 
 
-- 기간: 2023년 2월
+- 기간: 2024년 2월 ~
 - 참고 사이트: [SWEA](https://swexpertacademy.com/main/main.do), [백준](https://www.acmicpc.net/)
 - 언어: Java
 
