@@ -44,8 +44,8 @@
 
 | **날짜** | **유형**          | **문제 링크**                                  | 
 | -------- | ----------------  | ---------------------------------------------- |
-|  240202  |      완전탐색      | [스타트와 링크](https://www.acmicpc.net/problem/14889) | 
-|  240201  |      완전탐색      | [컴백 홈](https://www.acmicpc.net/problem/1189) | 
+|  240201  |      완전탐색      | [퇴사](https://www.acmicpc.net/problem/14501) | 
+|  240202  |      완전탐색      | [컴백 홈](https://www.acmicpc.net/problem/1189) | 
 |  240203  |       그리디       | [주식](https://www.acmicpc.net/problem/11501) |
 |  240204  |       그리디       | [행렬](https://www.acmicpc.net/problem/1080) |
 |  240205  |     분할 정복      | [쿼드 트리](https://www.acmicpc.net/problem/1992) |
@@ -70,7 +70,7 @@
 |  240220  | [시험 감독](https://www.acmicpc.net/problem/13458) | 
 |  240221  | [주사위 굴리기](https://www.acmicpc.net/problem/14499) | 
 |  240222  | [테트로 미노](https://www.acmicpc.net/problem/14500) | 
-|  240223  | [퇴사](https://www.acmicpc.net/problem/14501) | 
+|  240223  | [사다리 조작](https://www.acmicpc.net/problem/15684) | 
 |  240224  | [연구소](https://www.acmicpc.net/problem/14502) | 
 |  240225  | [로봇 청소기](https://www.acmicpc.net/problem/14503) | 
 |  240226  | [스타트와 링크](https://www.acmicpc.net/problem/14889) | 
