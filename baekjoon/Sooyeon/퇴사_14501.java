@@ -1,5 +1,3 @@
-
-
 import java.util.*;
 
 public class 퇴사_14501 {
