@@ -1,3 +1,6 @@
+/**
+ * 브랜치 적용
+ */
 import java.util.Scanner;
 
 public class Main{
