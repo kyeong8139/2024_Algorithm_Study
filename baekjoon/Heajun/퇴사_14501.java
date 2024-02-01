@@ -2,7 +2,7 @@ import java.util.*;
 
 public class 퇴사_14501 {
     public static void main(String[] args) {
-
+        //dp를 이용
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         int[][] num = new int[N + 2][2];
