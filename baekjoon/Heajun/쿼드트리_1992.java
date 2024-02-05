@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//주석
 public class 쿼드트리_1992 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
