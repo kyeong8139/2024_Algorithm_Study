@@ -26,17 +26,13 @@
 
 ## PR 규칙 및 Commit Message 규칙
 
-#### Pull Request
+#### Pull Request / Commit Message
 
-- [baekjoon-폴더명] 이름
-
-#### Commit Message
-
-- [baekjoon-문제번호] 문제명
+- [baekjoon-폴더명] 문제이름_문제번호
 
 #### 패키지 및 파일명
 
-- baekjoon.(영문이름).문제번호_문제이름.java
+- baekjoon.(영문이름).문제이름_문제번호.java
 
 ## 일정표
 
@@ -59,21 +55,39 @@
 |  240215  |     DP      | [계단 오르기](https://www.acmicpc.net/problem/2579) |               |
 |  240216  |     DP      | [연속 합](https://www.acmicpc.net/problem/1912) |               |
 
+#### 2차 : 백준 삼성SW 역량테스트 기출문제 (수정)
 
-#### 2차 : 백준 삼성SW 역량테스트 기출문제
+| **날짜** |  **문제 링크**                                  | 
+| -------- | ---------------------------------------------- | 
+|  240217  | [시험 감독](https://www.acmicpc.net/problem/13458) |  
+|  240218  | [스타트와 링크](https://www.acmicpc.net/problem/14889) |  
+|  240219  | [파이프 옮기기 1](https://www.acmicpc.net/problem/17070) |  
+|  240220  | [톱니바퀴](https://www.acmicpc.net/problem/14891) |   
+|  240221  | [로봇 청소기](https://www.acmicpc.net/problem/14503)  |   
+|  240222  | [상어 초등학교](https://www.acmicpc.net/problem/21608) |   
+|  240223  | [컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055) |  
+|  240224  | [마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610) |  
+|  240225  | [배열 돌리기 4](https://www.acmicpc.net/problem/17406) |                
+|  240226  | [게리멘더링](https://www.acmicpc.net/problem/17471) |                
+|  240227  | [⚾](https://www.acmicpc.net/problem/17281) |                
+|  240228  | [뱀](https://www.acmicpc.net/problem/3190) |                
+|  240229  | [주사위 굴리기](https://www.acmicpc.net/problem/14499) |           
 
-| **날짜** |  **문제 링크**                                  | **진행 상황** | 
-| -------- | ---------------------------------------------- | ------------- |
-|  240217  | [구슬 탈출2](https://www.acmicpc.net/problem/13460) |               |
-|  240218  | [2048 (Easy)](https://www.acmicpc.net/problem/12100) |                |
-|  240219  | [뱀](https://www.acmicpc.net/problem/3190) |                |
-|  240220  | [시험 감독](https://www.acmicpc.net/problem/13458) |                |
-|  240221  | [주사위 굴리기](https://www.acmicpc.net/problem/14499) |                |
-|  240222  | [테트로 미노](https://www.acmicpc.net/problem/14500) |                |
-|  240223  | [사다리 조작](https://www.acmicpc.net/problem/15684) |                |
-|  240224  | [연구소](https://www.acmicpc.net/problem/14502) |                |
-|  240225  | [로봇 청소기](https://www.acmicpc.net/problem/14503) |                |
-|  240226  | [스타트와 링크](https://www.acmicpc.net/problem/14889) |                |
-|  240227  | [경사로](https://www.acmicpc.net/problem/14890) |                |
-|  240228  | [톱니바퀴](https://www.acmicpc.net/problem/14891) |                |
-|  240229  | [감시](https://www.acmicpc.net/problem/15683) |                |
+
+#### 2차 : 백준 삼성SW 역량테스트 기출문제 (수정전, 참고용)
+
+| **날짜** |  **문제 링크**                                  | 
+| -------- | ---------------------------------------------- | 
+|  240217  | [구슬 탈출2](https://www.acmicpc.net/problem/13460) |               
+|  240218  | [2048 (Easy)](https://www.acmicpc.net/problem/12100) |                
+|  240219  | [뱀](https://www.acmicpc.net/problem/3190) |                
+|  240220  | [시험 감독](https://www.acmicpc.net/problem/13458) |                
+|  240221  | [주사위 굴리기](https://www.acmicpc.net/problem/14499) |                
+|  240222  | [테트로 미노](https://www.acmicpc.net/problem/14500) |                
+|  240223  | [사다리 조작](https://www.acmicpc.net/problem/15684) |                
+|  240224  | [연구소](https://www.acmicpc.net/problem/14502) |                
+|  240225  | [로봇 청소기](https://www.acmicpc.net/problem/14503) |                
+|  240226  | [스타트와 링크](https://www.acmicpc.net/problem/14889) |                
+|  240227  | [경사로](https://www.acmicpc.net/problem/14890) |                
+|  240228  | [톱니바퀴](https://www.acmicpc.net/problem/14891) |                
+|  240229  | [감시](https://www.acmicpc.net/problem/15683) |                
