@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class 주식_11501 {
-    static int ans = 0;
+    static long ans = 0;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt(); //test case 받기
@@ -32,7 +32,7 @@ public class 주식_11501 {
             if(max < stInt) { //값이 max값 보다 크다면, max값을 바꿔주어 함수 다시 실행
                 getMoney(st, stInt);
             } else { //max가 더 크다면 max값으로 주식을 팔고, 같은 함수 다시실행
-                ans += max - stInt;
+                ans +=(long) max - stInt;
                 getMoney(st, max);
             }
         }
