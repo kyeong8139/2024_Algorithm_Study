@@ -73,7 +73,7 @@ public class 톱니바퀴_14891 {
             int t = gears[i].r_idx - 2 >= 0 ? (gears[i].r_idx - 2) % 8 : (gears[i].r_idx - 2 + 8);
             sum += (gears[i].num[t] - '0') * Math.pow(2, i); //계산 후 덧셈
         }
-        System.out.println(sum);
+        System.out.println(sum); //
     }
 
     static void move(int target, int drc) {
