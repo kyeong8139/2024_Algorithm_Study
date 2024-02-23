@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//주석
 public class 상어초등학교_21608 {
 	static int[][] students;//학생들의 정보를 저장하는 배열
 	static int[][] visited; // 자리가 비어있는지 확인하는 배열
