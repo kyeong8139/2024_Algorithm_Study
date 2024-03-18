@@ -1,12 +1,10 @@
-package baekjoon;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
-public class N과M4 {
+public class N과M4_15652 {
     static int n, m;
     static StringBuilder sb = new StringBuilder();
     public static void main(String[] args) throws IOException {

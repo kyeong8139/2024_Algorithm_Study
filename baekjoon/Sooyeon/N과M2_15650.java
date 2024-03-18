@@ -1,5 +1,3 @@
-package baekjoon;
-
 import java.util.*;
 
 public class N과M2_15650 {
