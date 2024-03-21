@@ -1,16 +1,11 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.PriorityQueue;
-import java.util.StringTokenizer;
+import java.io.*;
+import java.util.*;
 
 public class RGB거리_1149 {
-	static int N, colourCost[][], minSum;
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-		N = Integer.parseInt(bf.readLine());
-		colourCost = new int[N][3];
+		int N = Integer.parseInt(bf.readLine());
+		int[][] colourCost = new int[N][3], dp = new int[N][3];
 		StringTokenizer st;
 		for(int i=0;i<N;i++) {
 			st = new StringTokenizer(bf.readLine());
@@ -18,27 +13,17 @@ public class RGB거리_1149 {
 				colourCost[i][j] = Integer.parseInt(st.nextToken());
 			}
 		}
-		minSum = Integer.MAX_VALUE;
-		for(int i=0;i<3;i++) {
-			colourSum(1, i, colourCost[0][i]);
-		}
-		System.out.println(minSum);
-	}
-	
-	static void colourSum(int depIdx, int lastIdx, int sum) {
-		if(minSum <= sum) {
-			return;
-		}
 		
-		if(depIdx == N) {
-			minSum = sum;
-			return;
+		dp[0][0] = colourCost[0][0];
+		dp[0][1] = colourCost[0][1];
+		dp[0][2] = colourCost[0][2];
+
+		for(int i=1;i<N;i++) {
+			dp[i][0] = Math.min(dp[i-1][1]+colourCost[i][0], dp[i-1][2]+colourCost[i][0]);
+			dp[i][1] = Math.min(dp[i-1][0]+colourCost[i][1], dp[i-1][2]+colourCost[i][1]);
+			dp[i][2] = Math.min(dp[i-1][0]+colourCost[i][2], dp[i-1][1]+colourCost[i][2]);
 		}
-		
-		for(int i=0;i<3;i++) {
-			if(i!=lastIdx) {
-				colourSum(depIdx+1, i, sum+colourCost[depIdx][i]);
-			}
-		}
+		Arrays.sort(dp[N-1]);
+		System.out.println(dp[N-1][0]);
 	}
 }
