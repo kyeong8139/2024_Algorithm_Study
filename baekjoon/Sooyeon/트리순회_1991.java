@@ -1,6 +1,53 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+<<<<<<< HEAD
+import java.util.ArrayList;
+import java.util.StringTokenizer;
+
+public class 트리순회_1991 {
+
+    static int[][] info;
+
+    static class Node{
+        char data;
+        char leftEdge, rightEdge;
+
+        Node(char data) {
+            this.data = data;
+        }
+
+        Node(char data, char leftEdge, char rightEdge) {
+            this.data = data;
+            this.leftEdge =leftEdge;
+            this.rightEdge = rightEdge;
+        }
+
+    }
+
+    static ArrayList<Node>[] list;
+    static ArrayList<Node> nodes = new ArrayList<>();
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+        int N = Integer.parseInt(bf.readLine());
+
+        list = new ArrayList[N];
+        info = new int[2][];
+
+        for(int i=0;i<N;i++) {
+            list[i] = new ArrayList<>();
+        }
+
+        for(int i=0;i<N;i++) { 
+            StringTokenizer st = new StringTokenizer(bf.readLine());
+            int idx = st.nextToken().charAt(0) - 65;
+            int[] temp = new int[2];
+            
+        }
+    }
+}
+=======
 import java.util.StringTokenizer;
 
 
@@ -95,3 +142,4 @@ public class 트리순회_1991 {
         sb.append(node.value);
     }
 }
+>>>>>>> 4e97efd6fe6e87e55a99f3bd66c85b379435285f

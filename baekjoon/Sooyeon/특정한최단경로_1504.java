@@ -61,7 +61,7 @@ public class 특정한최단경로_1504 {
             int idx = n.b, value = n.value;
 
             for(Node node : pq[idx]) {
-                if(arr[n])
+                
             }
         }
 
