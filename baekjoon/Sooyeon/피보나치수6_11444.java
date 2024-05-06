@@ -1,8 +1,7 @@
 import java.io.*;
-import java.math.BigInteger;
 import java.util.*;
 
-public class Main {
+public class 피보나치수6_11444 {
     static HashMap<Long, Long> d = new HashMap<Long, Long>();
     static final long mod = 1000000007;
 
