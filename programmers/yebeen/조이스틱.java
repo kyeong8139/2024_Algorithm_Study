@@ -1,3 +1,48 @@
+import java.util.*;
+
+class Solution {
+    static boolean[] visited;
+    static int n;
+    static int answer;
+    public int solution(String name) {
+        n = name.length();
+        visited = new boolean[n];
+        int cnt = 0;
+        List<Integer> list = new ArrayList<>();
+        
+        for(int i = 0; i<n; i++){
+            if(name.charAt(i)!='A'){
+                int plus = Math.abs('A' - name.charAt(i));
+				plus = Math.min(plus, 26 - plus);
+                cnt += plus;
+                list.add(i);
+            }
+        }
+        
+        
+        if(list.size()>0){
+            answer = list.get(list.size()-1) + cnt;
+        }
+        if(list.size()==1){
+            answer = Math.min(answer, cnt+n-list.get(list.size()-1));
+        }else{
+            for(int i = 1; i<list.size(); i++){
+                int temp1 = n-list.get(i);
+                int temp2 = list.get(i-1);
+                answer = Math.min(answer, Math.min(temp1*2+temp2, temp2*2+temp1)+cnt);
+            }
+        }
+        
+
+        return answer;
+    }
+    
+    
+}
+
+
+
+-------------------------------------------------------
 class Solution {
     public int solution(String name) {
         int answer = 0;
