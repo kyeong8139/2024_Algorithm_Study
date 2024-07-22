@@ -6,6 +6,8 @@ import java.util.StringTokenizer;
 public class Main {
 
     static int[][] dirs = {{0, -1}, {1, 0}, {0, 1}, {-1, 0}};
+    static int[][] dirChanges = {{1}, {3}, {0, 1}, {0, 3}, {0, 1, 1}, {0, 3, 3}, {0, 0, 1}, {0, 0, 3}, {0, 0, 0}};
+    static int[] percent = {1, 1, 7, 7, 2, 2, 10, 10, 5};
     static int[][] arr;
     static int answer, n;
     public static void main(String[] args) throws IOException {
@@ -49,9 +51,6 @@ public class Main {
 
     public static void sandChange(int row, int col, int dir) {
         int sand = arr[row + dirs[dir][0]][col + dirs[dir][1]];
-
-        int[][] dirChanges = {{1}, {3}, {0, 1}, {0, 3}, {0, 1, 1}, {0, 3, 3}, {0, 0, 1}, {0, 0, 3}, {0, 0, 0}};
-        int[] percent = {1, 1, 7, 7, 2, 2, 10, 10, 5};
         int lastSand = sand;
         int curSand = 0;
         for (int i = 0; i < dirChanges.length; i++) {
