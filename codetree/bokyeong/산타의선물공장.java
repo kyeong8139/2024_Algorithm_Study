@@ -1,4 +1,4 @@
-// 수행시간 1457ms
+// 수행시간 1102ms
 
 import java.util.*;
 import java.io.*;
@@ -25,7 +25,6 @@ public class Main {
 
 	static HashMap<Integer, Box> boxMap;
 	static int[] prevBelt;
-	static int[] nextBelt;
 	static int totalBeltCnt;
 
 	static int orderNumber;
@@ -89,7 +88,6 @@ public class Main {
 		boxMap = new HashMap<>();
 		boxMap.put(0, new Box(0, 0));
 		prevBelt = new int[beltCnt];
-		nextBelt = new int[beltCnt];
 		totalBeltCnt = beltCnt;
 
 		prevBox = new int[orderNumber + 1];
@@ -100,7 +98,6 @@ public class Main {
 
 		for (int i = 0; i < beltCnt; i++) {
 			prevBelt[i] = i;
-			nextBelt[i] = i;
 		}
 
 		int curBelt = 0;
@@ -245,7 +242,6 @@ public class Main {
 		}
 
 		prevBelt[beltNumber] = newBelt;
-		nextBelt[newBelt] = beltNumber;
 
 		int curHead = head[beltNumber];
 		int curTail = tail[beltNumber];
