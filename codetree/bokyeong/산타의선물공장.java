@@ -1,5 +1,3 @@
-// 통과안됨
-
 import java.util.*;
 import java.io.*;
 
@@ -161,7 +159,7 @@ public class Main {
     }
 
     public static void putDownBox(int wMax) {
-        int sumWeight = 0;
+        long sumWeight = 0;
         for (int i = 0; i < totalBeltCnt; i++) {
             if (prevBelt[i] != i) continue;
 
